@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Clock</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>CLOCK</h1>
+      </header>
+
+      <main>
+        <div class="date" id="date"></div>
+        <canvas id="clock"></canvas>
+
+        <div class="toggleContainer">
+          <div class="toggleInput">
+            <!-- TOGGLE SWITCH -->
+            <label class="switch">
+              <input type="checkbox" id="toggleSwitch" />
+              <span class="slider round"></span>
+            </label>
+            <!-- DISPLAY STATUS TEXT -->
+            <div id="status"></div>
+          </div>
+
+          <!-- DISPLAY TIME -->
+          <div id="time"></div>
+        </div>
+      </main>
+
+      <!-- COPYRIGHT NOTICE -->
+      <footer>
+        <div id="copy" class="copy"></div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
